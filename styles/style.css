@@ -313,6 +313,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: repeat(2, 120px) auto auto;
+  
 }
 
 .about__logo {
@@ -360,21 +361,10 @@
   margin-top: 8px;
   display: block;
   grid-column: 2/3;
-  grid-row: 3/4;
 }
 
 .about__text-margin-top {
-  color: #000;
-  font-family: Raleway, sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 120% */
-  margin-left: 11px;
-  display: block;
   margin-top: 24px;
-  grid-column: 2/3;
-  grid-row: 4/5;
 }
 
 .footer {
